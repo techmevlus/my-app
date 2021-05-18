@@ -1,43 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Mevlus  </title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+  </head>
   </head>
   <body>
+
+
+
+
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <header id="header" class="d-flex align-items-center">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+
+
+
+
+
+
+
+      <div class="container d-flex flex-column align-items-center">
+        <svg viewbox="0 0 100 20">
+          <defs>
+            <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="2%" stop-color="red"/>
+              <stop offset="98%" stop-color="red"/>
+            </linearGradient>
+            <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+              <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+                <animateTransform
+                    attributeName="transform"
+                    begin="0s"
+                    dur="1.5s"
+                    type="translate"
+                    from="0,0"
+                    to="40,0"
+                    repeatCount="indefinite" />
+              </path>
+            </pattern>
+          </defs>
+          <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="0.6">MEVLUS</text>
+          <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.1">MEVLUS</text>
+        </svg>
+       <!-- <h1 style="color:#ff0000">MEVLUS</h1> -->
+        <h2>Coming Soon . . .</h2>
+        <h2>We're in progress to see you guys soon<span style="color:#ff0000">, stay in touch</span></h2>
+        <div class="countdown d-flex justify-content-center" data-count="2021/07/18">
+          <div>
+            <h3>%d</h3>
+            <h4>Days</h4>
+          </div>
+          <div>
+            <h3>%h</h3>
+            <h4>Hours</h4>
+          </div>
+          <div>
+            <h3>%m</h3>
+            <h4>Minutes</h4>
+          </div>
+          <div>
+            <h3>%s</h3>
+            <h4>Seconds</h4>
+          </div>
+        </div>
+  
+ 
+  
+        <div class="social-links text-center">
+          <a href="https://twitter.com/mevlus_tech" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.facebook.com/mevlus.tech/" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/mevlus_tech/" class="instagram"><i class="bi bi-instagram"></i></a>
+       <!--  <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a> --> 
+        </div>
+  
+      </div>
+    </header><!-- End #header -->
+  
+    <main id="main">
+  
+      <!-- ======= About Us Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+  
+          <div class="row content">
+            <div class="col-lg-6">
+              <h2><span>We Believe</span></h2>
+              <h3>Coming together is a <span style="color:#ff0000">beginning</span>; keeping together is <span style="color:#ff0000">progress</span>; learning together is <span style="color:#ff0000">success</span>.</h3>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0">
+             
+ 
+              <p class="fst-italic">
+                "Mevlus is coming with a vision to bring all the entities in the education hub to a single platform in a better, reliable and easy way"
+              </p>
+            </div>
+          </div>
+  
+        </div>
+      </section><!-- End About Us Section -->
+  
+      <!-- ======= Contact Us Section ======= -->
+
+    </main><!-- End #main -->
+  
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>MEVLUS</span></strong>. All Rights Reserved
+        </div>
+     
+      </div>
+    </footer><!-- End #footer -->
+  
+    <a href="/" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
