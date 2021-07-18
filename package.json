@@ -11,6 +11,7 @@
     "express-session": "^1.15.5",
     "foreman": "^3.0.1",
     "formidable": "^1.2.2",
+    "moment": "^2.29.1",
     "mongoose": "^5.12.4",
     "nodemon": "^1.11.0",
     "notistack": "^1.0.9",
@@ -21,7 +22,9 @@
     "react-router-dom": "^4.1.2",
     "react-router-redux": "^4.0.8",
     "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0"
   },
   "devDependencies": {
     "eslint": "^7.4.0",
