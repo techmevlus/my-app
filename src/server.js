@@ -30,7 +30,6 @@ app.use(function(req, res, next) {
     next();
 });
 var router = express.Router();
-const AnswerKey = require('../models/answerKey');
 
 //to get test data(for quiz)
 router.route('/getAnswerKey')
