@@ -1,2 +1,2 @@
-web: nf start -p 3000
+web: react-scripts start
 api: nodemon src/server.js
